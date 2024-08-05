@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>FORM</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Student Details</legend>
+            <label >Name<label>
+                <input type="text" placeholder="enter name">
+            <label >Father Name</label>
+            <input type="text" placeholder="enter father name">
+            <label>Mother Name</label>
+            <input type="text" placeholder="enter mother name">
+            <br><br>
+            <label >Date Of Birth</label>
+            <input type="date" required>
+            <br><br>
+            <label >Gender :</label>
+            <input type="radio">Female
+            <input type="radio">Male
+            <br><br>
+            <label >Mobile NUmber</label>
+            <input type="number" maxlength="10">
+            <br><br>
+            <label>Email</label>
+            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            <br><br>
+            <label>Adress</label>
+            <textarea cols="10" rows="3" ></textarea>
+            <br><br>
+            <label >City</label>
+            <Select>
+                <option >Select city</option>
+                <option value="1">A.p</option>
+                <option value="2">T.S</option>
+                <option value="3">U.p</option>
+                <option value="4">banglore</option>
+                <option value="5">Chennai</option>
+            </Select>
+            <br><br>
+            <label>Languages</label>
+            <input type="checkbox">Telugu</input>
+            <input type="checkbox">english</input>
+            <input type="checkbox">kannada</input>
+            <input type="checkbox">Hindi</input>
+            <br><br>
+            <label>File</label>
+            <input type="file" placeholder="Choose file">
+            <br><br>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+    
+        </fieldset>
+    </form>
+    
+</body>
+</html>
